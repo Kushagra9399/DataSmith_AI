@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Agentic AI Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <div class="sidebar">
+            <h2>🤖 Agentic AI</h2>
+            <p>AI Assistant Interface</p>
+        </div>
+
+        <div class="chat-container">
+
+            <div class="chat-header">
+                <h1>Agentic AI Assistant</h1>
+                <span class="status">● Online</span>
+            </div>
+
+            <div id="chat-box"></div>
+
+            <form id="upload-form">
+
+                <div class="input-group">
+
+                    <textarea id="text-input"
+                        placeholder="Type your message here..."></textarea>
+
+                    <div class="bottom-bar">
+
+                        <input type="file" id="file-input">
+
+                        <button type="submit">
+                            Send
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
