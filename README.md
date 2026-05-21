@@ -90,7 +90,7 @@ The application behaves like an AI agent:
 
 # Project Architecture
 
-![Architecture Diagram](Gemini_Generated_Image_4dtake4dtake4dta.png)
+![Architecture Diagram](Architecture_DataSmith.png)
 
 ---
 
@@ -225,8 +225,8 @@ project-root/
 # 1. Clone Repository
 
 ```bash
-git clone <your-github-repo-url>
-cd <project-folder>
+git clone https://github.com/Kushagra9399/DataSmith_AI.git
+cd DataSmith_AI
 ```
 
 ---
