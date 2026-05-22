@@ -41,6 +41,8 @@ def detect_intent(text, history):
     Rules:
     - If intent is unclear, ask follow-up question.
     - Max of 2 questions can be asked it intent is not clear.
+    - Ask only what is required not the explaination.
+    - You can ask like "what to do with the given code", "Do you need summary of this or you have some questions".
     - If intent is of "question_answering", then provide answer in "answer" value.
     - Return JSON only.
     """
